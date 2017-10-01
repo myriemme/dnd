@@ -1,0 +1,42 @@
+
+
+h1 {	
+	color: white !important;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	background-color: transparent;
+	
+}
+
+div.col-md-12 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+p, h4 {
+	color: white;
+}
+
+div.thumbnail img {
+	max-width: 30%;
+}
+
+nav.navbar.navbar-inverse.navbar.static.top {
+	margin-bottom: 0px;
+}
+
+.jumbo {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.jumbotron{
+	background-image: url(http://dnd.wizards.com/sites/default/files/media/styles/story_banner/public/images/head-banner/HERO_StartBox.jpg?itok=C3fgGr5p);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 60vh;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}

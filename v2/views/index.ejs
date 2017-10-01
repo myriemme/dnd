@@ -1,0 +1,35 @@
+<% include partials/header %>
+       
+       <div class="container">
+        <header class="jumbotron">
+            <div class="container">
+                <h1>Welcom to DnD adventures</h1>
+                <p>Enjoy our hand-created adventures from all over DnD world</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="/adventures/new">Add new adventure</a>
+                </p>
+            </div>
+        </header>
+	</div>
+       
+        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+            <% adventures.forEach(function(adventure){ %>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="<%= adventure.image %>">
+                        <div class="caption">
+                            <h4><%= adventure.name %></h4>
+                        </div>
+                        <p>
+                            <a href="/adventures/<%= adventure._id %>" class="btn btn-primary">More Info</a>
+                        </p>
+                    </div>
+                </div>
+                <% }) %>
+        </div>
+
+   
+
+ 
+
+<% include partials/footer %>
